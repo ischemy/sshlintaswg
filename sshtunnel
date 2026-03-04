@@ -1,0 +1,35 @@
+[Interface]
+PrivateKey = 8AsH1ftaXnCLo79X6fLd6BUieqToP8SoYvCJ6hVWwkc=
+Address = 10.192.15.10/24
+DNS = 1.1.1.1
+MTU = 1280
+
+[Peer]
+PublicKey = 0Yyi7DvghlGxXxAiHb0W8ghEwBZ3p2E2YnUK3iNanWs=
+AllowedIPs = 10.192.15.2/32
+Endpoint = 202.74.74.100:51820
+PersistentKeepalive = 25
+
+[Peer]
+PublicKey = Icwgd0rj9U5GyhIyYTp/1G2+oxwC3hWt+Xa41jB82Rs=
+AllowedIPs = 10.192.15.3/32
+Endpoint = 202.74.74.101:51820
+PersistentKeepalive = 25
+
+[Peer]
+PublicKey = J95RTJI7UmXIHGbiAuXciM+tgMAKL83kWA29hgSfLkU=
+AllowedIPs = 10.192.15.4/32
+Endpoint = 103.31.205.129:51820
+PersistentKeepalive = 25
+
+[Peer]
+PublicKey = VucFjOjxZwIBg5K17eMany//yytnDYbqY52iD7rzmFI=
+AllowedIPs = 10.192.15.5/32
+Endpoint = 103.31.205.134:51820
+PersistentKeepalive = 25
+
+[Peer]
+PublicKey = jBt0FvyFvvNZ2i1zMnco0MRCoRuO+c1e6TBPnaxrnlY=
+AllowedIPs = 10.192.15.6/32
+Endpoint = 103.31.205.21:51820
+PersistentKeepalive = 25
