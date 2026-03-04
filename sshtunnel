@@ -39,3 +39,8 @@ PersistentKeepalive = 25
 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCJ6vL/eEwwFjCasKHeTtY893MxYAMTsWTHiob8F05jr+UpwIiMvA3cUgxnLG6FMaG1PZuz933l32EMKHY2QnZG/SHMJeuNFO2mFYtB1fqygeYqB9vQ9Jft5DHq0RkwWye61QcsEmtfHtJ5stxMIfzCiAJXvCD6eIltOMekEqkvZFWSXk2skLdTKcpjUxokUPzytlqJmZGWkijGoJwLdHFx4J/YOgkTUonZ/Dx2Me2HYdf5xEUbwEBAiwqBW2vepMW7DbEMuz4IJG6Ajxt9ZhLOYSh8C3iXR6Q65eBbsd3GdIqk1L305SWKX2ZvDaKJWdeoUfu1Im55YxB8iNDZiuSj mam
+
+# Reset izin file agar hanya bisa diakses oleh user saat ini
+icacls "C:\Users\ramiza\Documents\sshtest\ssh_id" /inheritance:r
+icacls "C:\Users\ramiza\Documents\sshtest\ssh_id" /grant:r "${env:USERNAME}:(R)"
+
